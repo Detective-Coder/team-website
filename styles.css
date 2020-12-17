@@ -1,13 +1,23 @@
+
+
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
   color: #f4c20c;
-  font-family: 'Poppins', sans-serif;
   background-color: #494949;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 header {
   width: 100vw;
   height: 100vh;
   background: url(images/spongebob-background.jpg) center center/cover no-repeat;
+  padding-top: 1rem;
 }
 
 h1 {
@@ -21,4 +31,26 @@ h1 {
 
 aside {
   width: 35vw;
+  margin: 0 auto;
+}
+
+aside h2 {
+  margin: 3rem 0;
+}
+
+li {
+  margin-bottom: 2rem;
+  list-style-type: none;
+}
+
+div {
+  text-align: center;
+}
+
+div p {
+  margin-bottom: 1.5rem;
+}
+
+div img {
+  margin-bottom: 2rem;
 }
