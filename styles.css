@@ -1,0 +1,24 @@
+* {
+  color: #f4c20c;
+  font-family: 'Poppins', sans-serif;
+  background-color: #494949;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background: url(images/spongebob-background.jpg) center center/cover no-repeat;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.headings {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+aside {
+  width: 35vw;
+}
