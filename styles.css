@@ -18,6 +18,9 @@ header {
   height: 100vh;
   background: url(images/spongebob-background.jpg) center center/cover no-repeat;
   padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -39,8 +42,8 @@ aside h2 {
 }
 
 li {
-  margin-bottom: 2rem;
-  list-style-type: none;
+  text-align: left;
+  margin-left: 3rem;
 }
 
 div {
@@ -53,4 +56,44 @@ div p {
 
 div img {
   margin-bottom: 2rem;
+}
+
+.intro {
+  width: 30vw;
+  padding: 4rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  width: 30%;
+}
+
+.title {
+  margin: 8rem 0 2rem;
+}
+
+.aaron-image {
+  border-radius: 50%;
+}
+
+.tech-heading {
+  margin-top: 8rem;
+}
+
+#experience h3 {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+#experience p {
+  text-align: left;
+}
+
+a {
+  color: green;
+  text-decoration: none;
 }

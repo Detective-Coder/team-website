@@ -12,9 +12,12 @@
 </head>
 <body>
   <header class="header">
-    <h1 class="headings">Wesley Harrison</h1>
+    <div class="intro">
+      <h1 class="headings">Wesley Harrison</h1>
+      <p>Web Developer</p>
+    </div>
   </header>
-  <aside>
+  <!-- <aside>
     <h2 class="headings">What are your favorite movies?</h2>
     <ul>
       <li>Taledega Nights</li>
@@ -27,6 +30,38 @@
   <div>
     <p>There's nothing wrong with having a tree as a friend.</p>
     <img src="https://media1.giphy.com/media/6tHy8UAbv3zgs/giphy.gif" alt="spongebob flexing gif">
+  </div> -->
+  <div class="flex-container">
+    <div class="column">
+      <aside>
+        <h3 class="title">About Me</h3>
+        <p>I'm a front-end web developer based in West Virginia.</p>
+        <img src="images/me-outdoor.jpg" alt="Picture of Aaron Frankenfield" width="400" class="aaron-image">
+      </aside>
+    </div>
+
+    <div class="column">
+      <section class="bio">
+        <H2 class="tech-heading">Tech Stack</H2>
+        <ul class="tech-stack">
+          <li id="html">HTML</li>
+          <li id="css">CSS</li>
+        </ul>
+      </section>
+
+      <section id="experience">
+        <h3>Website Experience</h3>
+        <article id="portfolio-website">
+          <p>I started off by creating my own <a href="http://aaronfrankenfield.com/" target="_blank">website</a>. If you follow the link you'll get some more information about me.</p>
+        </article>
+        <article id="church-website">
+          <p>I then helped my local church by creating a website for them <a href="http://fayettevillepresbyterianwv.com/" target="_blank">here</a>.</p>
+        </article>
+        <article id="bar-website">
+          <p>Finally, I was commissioned to create a website for a local bar called <a href="http://maggies-pub.com/" target="_blank">Maggie's Pub</a>.</p>
+        </article>
+    </section>
+    </div>
   </div>
 </body>
 </html>
